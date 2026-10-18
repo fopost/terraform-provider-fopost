@@ -6,7 +6,7 @@ terraform {
   required_providers {
     fopost = {
       source  = "fopost/fopost"
-      version = "~> 0.1"
+      version = "~> 0.2"
     }
   }
 }

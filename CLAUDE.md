@@ -7,7 +7,7 @@ Guidance for Claude Code (claude.ai/code) when working in this repository.
 `terraform-provider-fopost` — the official Terraform provider for
 [FoPost](https://fopost.com), published to the Terraform Registry as `fopost/fopost`. It is
 built on **terraform-plugin-framework v1.x** (not the legacy SDKv2) and is a *consumer* of
-the official Go SDK, `github.com/fopost/fopost-go`. Version `0.1.0`.
+the official Go SDK, `github.com/fopost/fopost-go`. Version `0.2.0`.
 
 The provider owns schemas, plan behaviour, state, and diagnostics. **It owns no transport.**
 HTTP, authentication headers, retries, backoff, `Retry-After`, envelope unwrapping, and
