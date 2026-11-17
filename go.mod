@@ -2,6 +2,8 @@ module github.com/fopost/terraform-provider-fopost
 
 go 1.26.0
 
+toolchain go1.26.11
+
 require (
 	github.com/fopost/fopost-go v0.3.0
 	github.com/hashicorp/terraform-plugin-framework v1.19.0
